@@ -2230,3 +2230,89 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+#page {
+    margin: auto !important;
+    /*margin-top: 15px !important;
+    margin-bottom: 15px !important;*/
+    
+    /*max-width: 80%;*/
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    
+    /*min-width: 100% !important;*/
+    
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    padding: 0;
+}
+#main {
+    margin: auto !important;
+    max-width: 80% !important;
+    min-width: 80% !important;
+}
+
+
+#site-navigation {
+    margin-top: 0;
+}
+#menu-main {
+    border-top: none;
+    background: url(/css/images/banner.png);
+}
+#masthead {
+    /*padding-top: 5px;*/
+    /*background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(50, 50, 50, 0.15);*/
+    /*background-clip: padding-box;*/
+    background-clip: content-box;
+    margin-top: 0;
+    padding-top: 0;
+}
+.nav-menu > li {
+    margin-left: 1.4285714285rem;
+    margin-right: 1.4285714285rem;
+}
+#menu-main > li > a {
+    font-size: 200%;
+    line-height: 300% !important;
+    color: rgba(200, 200, 200, 0.8);
+}
+#menu-main > li > a:hover {
+    color: #eee;
+}
+.mast-border {
+    height: 45px;
+    width: 1px;
+    background: rgba(200, 200, 200, 0.8);
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+    display: inline-block;
+    /*left: 0;*/
+    left: 0;
+    top: 29px;
+}
+.mast2 {
+    height: 35px;
+    width: 1px;
+    background: rgba(200, 200, 200, 0.8);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: inline-block;
+    /*left: 0;*/
+    /*left: -21px !important;*/
+    left: -1px !important;
+    top: -16px;
+}
+#colophon {
+    min-width: 100%;
+    /*padding-left: 2.857142857rem;*/
+    
+    background: #262a30;
+    padding: 50px 0 50px 2.85rem;
+    border-top: 1px solid #ddd;
+    color: #999;
+    
+    margin-top: 0;
+}
