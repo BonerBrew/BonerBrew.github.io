@@ -1,0 +1,43 @@
+<script type="text/javascript">
+// 
+// <div class="spoiler-parent">
+// <dt class="spoiler-text"><strong>Spoiler:</strong>
+// <a href="javascript:void(0);" class="spoiler-toggle">Show</a></dt>
+// <dd><div class="spoiler-content" name="spoiler" style="display: none;">
+//   Holaaaaa, Bienvenido!!!!!
+//   
+// </div></dd></div>
+// 
+// ::: Spoiledz
+// 
+// this is the content
+// 
+// :::
+// 
+// :::
+// this is content too
+// :::
+// 
+$(function() {
+  $('.spoiler-toggle').click(function() {
+    var spoiler = $(this).parents('.spoiler-parent').find('.spoiler-content').toggle('slow');
+    if (this.textContent == 'Hide') {
+       this.textContent = 'Show';
+    } else {
+       this.textContent = 'Hide';
+    }
+    return false;
+  });
+
+  Array.prototype.forEach.bind(document.querySelectorAll('.header-anchor'))(function(el) {
+    var parent = el.parentElement;
+    parent.onmouseover = function() {
+      el.style.opacity = '0.5';
+    };
+    parent.onmouseout = function() {
+      el.style.opacity = '0';
+    };
+    el.style.opacity = '0';
+  });
+});
+</script>
