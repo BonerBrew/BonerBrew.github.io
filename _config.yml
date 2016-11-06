@@ -22,7 +22,7 @@ exclude_generators:
 
 # Directory
 source_dir: source
-public_dir: dist
+public_dir: docs
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
