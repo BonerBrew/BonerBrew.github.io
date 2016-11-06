@@ -1,0 +1,12 @@
+<article class="post type-post status-publish format-standard hentry archive-type-<%= post.layout %>">
+ <% if (!post.noHeader && url != config.url + '/index.html') { %>
+  <header class="entry-header">
+      <%- partial('post/title', {class_name: 'archive-article-title'}) %>
+  </header>
+  <footer class="entry-meta">
+    <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+    <%- partial('post/category') %>
+    <%- partial('post/tag') %>
+    </footer>
+ <% } %>
+</article>

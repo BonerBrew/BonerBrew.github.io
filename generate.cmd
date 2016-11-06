@@ -1,0 +1,1 @@
+hexo clean && node try-generate && hexo generate
