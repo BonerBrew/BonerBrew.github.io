@@ -85,7 +85,7 @@ theme: cyanstyle
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repository: https://github.com/rafa1231518/fallk.github.io.git
+  repository: https://github.com/uwx/fallk.github.io.git
   branch: master
 
 # Marked config
